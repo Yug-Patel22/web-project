@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a New Expense</title>
+  <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create a New Expense</h1>
+    <form>
+      <div class="main-form">
+        <div class="form-group">
+          <label for="event-name">Event Name</label>
+          <input type="text" id="event-name" placeholder="e.g., Ski Trip" required>
+        </div>
+
+        <div class="form-group">
+          <label for="currency">Home Currency</label>
+          <select id="currency" required>
+            <option value="INR">INR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="your-name">Your Name</label>
+          <input type="text" id="your-name" placeholder="Your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="your-email">Your Email (Recommended)</label>
+          <input type="email" id="your-email" placeholder="Your email">
+        </div>
+
+        <div class="form-group">
+          <label for="person-2">Person 2</label>
+          <input type="text" id="person-2" placeholder="Name">
+        </div>
+
+        <button type="button" class="add-person-btn">+ Add New Person</button>
+        <button type="submit" class="submit-btn">Create Expense</button>
+      </div>
+
+      <div class="side-info">
+        <h3>Good examples for creating an expense</h3>
+        <p>Everyone in your flat share lost track of who paid what and when this month.</p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

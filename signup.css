@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #00bcd4, #8e44ad); 
+}
+
+
+.page-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 26px; 
+    color: #FFC0CB;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    color: #333; 
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px; 
+}
+
+
+input {
+    padding: 8px;
+    font-size: 14px; 
+    margin: 6px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input[type="password"]:last-child {
+    margin-bottom: 15px; 
+}
+
+
+.btn {
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+
+h2 {
+    font-size: 22px; 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left : 10px;
+}
+.logo{
+    width : 250px;
+    height : auto;
+    position : absolute;
+    left : 0;
+    top : 0;
+}

@@ -1,0 +1,89 @@
+/* Common CSS File: common.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #00bcd4, #8e44ad);
+    color: #ffffff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #00bcd4;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+  }
+  
+  .content {
+    padding: 40px 20px;
+  }
+  
+  .content h2 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
